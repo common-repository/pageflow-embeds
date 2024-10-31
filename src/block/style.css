@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
+.pageflow-block-fill-container {
+  max-width: 100% !important;
+  width: 100% !important;
+  position: relative; }
+
+.pageflow-block-manual-container {
+  max-width: 100% !important;
+  position: relative; }
+
+.pageflow-block-dynamic-container {
+  max-width: 100% !important;
+  position: fixed; }
+
+.pageflow-manual-start-block {
+  background-color: black;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.pageflow-iframe {
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 100% !important;
+  max-width: 100% !important;
+  border: none; }
+
+.pageflow-fullscreen-button {
+  font-family: 'Maven Pro', sans-serif;
+  padding: 7px;
+  background-color: black !important;
+  color: white;
+  float: right; }
+
+.pageflow-play-btn {
+  display: block;
+  position: absolute;
+  top: calc(50% - 30px);
+  left: calc(50% - 50px);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0 auto;
+  border: 3px solid #fff;
+  transition: background-color 0.6s ease;
+  background-color: rgba(0, 0, 0, 0.7); }
+  .pageflow-play-btn:after {
+    content: '';
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 14px);
+    display: block;
+    box-sizing: border-box;
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    border-width: 26px 0 26px 40px; }
+  .pageflow-play-btn:hover {
+    cursor: pointer;
+    background-color: rgba(145, 148, 143, 0.9); }
+
+/*# sourceMappingURL=style.css.map */
